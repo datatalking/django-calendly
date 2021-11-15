@@ -1,5 +1,6 @@
 gunicorn
 Django
 djangorestframework
-psycopg2
-django-heroku
+psycopg2-binary
+django_on_heroku
+sudo apt install libpq-dev

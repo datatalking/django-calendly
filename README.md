@@ -20,6 +20,23 @@ python manage.py migrate
     python manage.py runserver
     ```
     The application starts listening on http://127.0.0.1:8000/.
+3. Error 403 or 404 depending upon package
 
 ## Author
 Akash Agrawal
+
+## Post Author Notes
+Andrew Schell
+errors on runserver, migrate and other packages not installing.
+```angular2html
+conda activate /Users/xxxxxxxx/opt/anaconda3/envs/django-calendly
+/Users/xxxxxxxx/opt/anaconda3/bin/conda install -p /Users/wadewilson/opt/anaconda3/envs/django-calendly djangorestframework -y
+```
+# tried pip3 install psycopg2==2.7.5
+# made progress
+# error django_heroku error not found, depreicated in favor of django_on_heroku
+# tried sudo apt install libpq-dev
+# no go, not debian, tried brew install libpq-dev after pip install libpq-dev
+# then tried brew install libpq
+# will retry then brew postgresql-upgrade-database
+
